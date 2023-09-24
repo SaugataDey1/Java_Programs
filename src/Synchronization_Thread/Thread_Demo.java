@@ -5,7 +5,7 @@ class Counter
     int count;
 
     public synchronized void increment()
-    //public void increment()
+    // public void increment()
     // When we don't make our Method Synchronized then our Method is not Thread safe
     // We make our Method Synchronized then only one Thread can access the Method and after it end
     // another Thread can access that Method.

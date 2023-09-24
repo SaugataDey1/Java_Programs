@@ -14,9 +14,10 @@ public class a3
     {
          String str = "welcome to code decode and code decode welcome you";
          List<String> l = Arrays.asList(str.split(" "));
+        System.out.println(l);
 
          Map<String, Long> map = l.stream().collect(Collectors.groupingBy(Function.identity(),Collectors.counting()));
-      //   Map<String, Long> map = l.stream().collect(Collectors.groupingBy(x -> x,Collectors.counting()));
+     //  Map<String, Long> map = l.stream().collect(Collectors.groupingBy(x -> x,Collectors.counting()));
          System.out.println(map);
     }
 }

@@ -29,6 +29,7 @@ public class Optional_example
      //   System.out.println(optional);
 
         System.out.println(optional.orElse("No value in this Object"));
+       // optional.orElseGet();
 
     }
 }

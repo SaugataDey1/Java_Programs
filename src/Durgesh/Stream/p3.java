@@ -25,6 +25,9 @@ public class p3
 
         // Duplicate & UniqueNames Names from a String
         List<String> names = List.of("Rahul", "Saugat", "Disha", "Rahul", "Anjali", "Disha", "Shyam", "Kunal", "Lokesh");
+        names.stream().distinct().forEach(x -> System.out.print(x + "  "));
+
+        System.out.println();
 
         // 1 way
         Set<String> uniqueNames = new HashSet<>();
